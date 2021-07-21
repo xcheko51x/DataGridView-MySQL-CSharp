@@ -1,0 +1,16 @@
+create database pruebas;
+
+use pruebas;
+
+create table usuarios(
+	idUsuario int primary key auto_increment,
+	nomUsuario varchar(100) not null,
+	usuario varchar(100) not null,
+	contrasena varchar(10) not null
+);
+
+insert into usuarios values('1', "Sergio Peralta", "xcheko51x", "123456789");
+
+insert into usuarios values('2', "Juan Perez", "JuanP", "56234536");
+
+insert into usuarios values('3', "Ana Lopez", "AnaL", "342543654");
